@@ -2,7 +2,7 @@
 
 ![](/images/curves.jpg)
 
-This is a binary classification problem and was my foray into supervised machine learning. The purpose of the project was to utilize customer record data from a telco company to predict whether they would leave the company, or in other words churn. Six classification algorithms are tested and shortlisted for this task. The precision and recall trade-off for each model is also considered to simulate the real-life business decision made by an organization. 
+The purpose of the project was to utilize customer record data from a telco company to predict whether they would leave the company, or in other words churn. Six classification algorithms are tested and shortlisted for this task. The precision and recall trade-off for each model is also considered to simulate the real-life business decision made by an organization. 
 
 - Dataset contains 3,333 records, each containing customer information. Target feature is either 'yes' or 'no', indicating whether that customer churned. 
 - Due to heavy class imbalance of target feature, custom metric (based on f1-score of the minority class) is used to grade each model. 
